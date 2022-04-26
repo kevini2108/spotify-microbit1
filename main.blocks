@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="t@IiQP`8|K}okz:y5ByV">receivedString</variable></variables><block type="pxt-on-start" id="%kofG|M#An[?Va3nZqs=" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="GCr|4mx#s`d,PXX8}sD6"><value name="ID"><shadow type="math_number_minmax" id="/59CWJgRKC6{w+Va[BYm"><mutation min="0" max="255" label="Number" precision="0"/><field name="SLIDER">55</field></shadow></value></block></statement></block><block type="radio_on_string" id="dO2=/E0+G+@?v1ldp(%~" x="-2" y="144"><field name="HANDLER_receivedString" id="t@IiQP`8|K}okz:y5ByV">receivedString</field><statement name="HANDLER"><block type="serial_writeline" id="DeQzcJoJS5jYAR|.9wDq"><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="variables_get" id="?D]6-NP9rrx#X^!qG4U_"><field name="VAR" id="t@IiQP`8|K}okz:y5ByV">receivedString</field></block></value><next><block type="basic_show_icon" id="(Apkrm5n:iGb5/9O!}_1"><field name="i">IconNames.Diamond</field><next><block type="device_show_leds" id="n@z+uevNwiLGH54G+=Ng"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=":ze!=[-t~_06ymb!!NJ?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="r,IQ|TV1*cJR)x-{L8.}"/></next></block></next></block></next></block></next></block></statement></block></xml>
